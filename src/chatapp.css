@@ -233,3 +233,21 @@
 .profiledetailsdiv > *{
     color: gray;
 }
+@media screen and (max-width:500px){
+    .chatapp {
+        display: block;
+        height: auto;
+        width: 90%;
+    }
+    .contactshome,.chatContentdiv,.profilediv {
+        width: 100%;
+    }
+    .searchicon {
+        margin: 7px 0px 0px -332px;
+    }
+}
+@media screen and (min-width:700px) and (max-width:850px){
+    .profilediv {
+        width: 30%;
+    }
+}
